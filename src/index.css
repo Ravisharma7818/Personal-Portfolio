@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+* {
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.home-main-text{
+  margin-top: 3rem;
+
+}
+.home-text-container{
+  margin-top: 6rem;
+
+}
+.home-seocial-icon-container{
+  margin-left: 15rem;
+}
+body {
+  background-color: rgb(226, 251, 255);
+
+}
+@media only screen and (max-width: 600px) {
+
+  #name_text{
+    font-size: 1.5rem;
+  }
+  body {
+    background-color: rgb(226, 251, 255);
+
+  }
+  .css-xu71wp-MuiGrid-root {
+    margin-left: 20px;
+    }
+    .logo{
+      width: 200px; height: 200px
+    }
+    .home-text-container{
+      margin-top: 1rem;
+    
+    }
+    .home-seocial-icon-container{
+      margin-left: 6rem;
+    }
+    .css-1pgv19c-MuiStack-root {
+      gap: 15px!important;
+  }
+
+/* 
+  .css-1azith4-MuiPaper-root-MuiCard-root {
+   
+    height: 250px!important;
+} */
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.about-video{
+  height: 400px;
+  width: 400px;
+}
+
+/* .About_Page_Container{
+  margin-top: 12rem;
+  height: 60vh;
+}
+.Project_Page_Container{
+  margin-top: 12rem;
+  height: 60vh;
+}
+.Contact_Page_Container{
+  margin-top: 15rem;
+  height: 60vh;
+}
+.home_page_container{
+  height: 50vh;
+ 
+} */
+
+
