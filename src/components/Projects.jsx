@@ -34,9 +34,14 @@ const Projects = () => {
               <Typography gutterBottom variant="h5" component="div">
                 ShopHere
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                sx={{ textAlign: "justify" }}
+              >
+                This is an Ecommerce Website build with powerful stack MERN
+                Stack with role baseed auth payment gateway ans including Admin
+                dashboard
               </Typography>
             </CardContent>
             <CardActions>
@@ -65,8 +70,9 @@ const Projects = () => {
                 LiveMeet
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                This is an zoom clone it's build in html css and agora api .
+                Here user can share screen as well and multiple user at a single
+                time .
               </Typography>
             </CardContent>
             <CardActions>
@@ -94,8 +100,8 @@ const Projects = () => {
                 RaviJobs
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                This is an job platfrm build in React js and antd here user can
+                apply on jobs and also if want so create job and manage jobs
               </Typography>
             </CardContent>
             <CardActions>

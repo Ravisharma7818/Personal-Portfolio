@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Container, Typography } from "@mui/material";
+import { Button, Container, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
 import Grid from "@mui/material/Grid";
@@ -12,23 +12,22 @@ const Home = () => {
       <Navbar />
 
       <br></br>
-      <Container sx={{ height: "60vh" }}>
+      <Container sx={{ height: "70vh" }}>
         <Box>
           <Grid container className="home-text-container">
             <Grid xs={12} md={6} align="center">
               <Avatar
                 alt="Ravi Sharma"
                 src={require("../img/profile.png")}
-                sx={{ width: 270, height: 270 }}
+                sx={{
+                  width: 270,
+                  height: 270,
+                  borderTop: "4px solid red",
+                  borderLeft: "4px solid yellow ",
+                }}
               />
             </Grid>
-            <Grid
-              xs={12}
-              md={6}
-              align="center"
-              // sx={{ backgroundColor: "green" }}
-              className="home-main-text"
-            >
+            <Grid xs={12} md={6} align="center" className="home-main-text">
               <Typography
                 variant="h5"
                 sx={{
@@ -49,23 +48,19 @@ const Home = () => {
               >
                 Ravi Sharma{" "}
               </Typography>
-
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://drive.google.com/file/d/1n5RSCjwc0uIT2d5Alp5By4BU0m1Ot7ch/view?usp=drivesdk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button>Resume</Button>
+              </a>
               <Stack
                 direction="row"
                 // sx={{ backgroundColor: "yellow" }}
                 className="home-seocial-icon-container"
-              >
-                {/* <Avatar
-                  alt="Github"
-                  variant="rounded"
-                  src={require("../img/git.png")}
-                />
-                <Avatar
-                  variant="rounded"
-                  alt="Github"
-                  src={require("../img/link.png")}
-                /> */}
-              </Stack>
+              ></Stack>
             </Grid>
           </Grid>
         </Box>

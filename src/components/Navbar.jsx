@@ -90,9 +90,17 @@ function Navbar() {
                   LinnkedIn
                 </Button>
               </a>
-              <Button sx={{ my: 2, color: "black", display: "block" }}>
-                Resume
-              </Button>
+
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://drive.google.com/file/d/1n5RSCjwc0uIT2d5Alp5By4BU0m1Ot7ch/view?usp=drivesdk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button sx={{ my: 2, color: "black", display: "block" }}>
+                  Resume
+                </Button>
+              </a>
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
@@ -128,10 +136,16 @@ function Navbar() {
                 LinnkedIn
               </Button>
             </a>
-
-            <Button sx={{ my: 2, color: "black", display: "block" }}>
-              Resume
-            </Button>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://drive.google.com/file/d/1n5RSCjwc0uIT2d5Alp5By4BU0m1Ot7ch/view?usp=drivesdk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button sx={{ my: 2, color: "black", display: "block" }}>
+                Resume
+              </Button>
+            </a>
           </Box>
         </Toolbar>
       </Container>

@@ -30,9 +30,10 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Thanx ! Your Message sent Successfully!");
         },
         (error) => {
-          console.log(error.text);
+          alert("Oops !Something Went Wrong Pls try after some time!");
         }
       );
   };
